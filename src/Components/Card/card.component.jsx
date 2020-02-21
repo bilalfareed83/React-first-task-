@@ -7,7 +7,10 @@ class Card extends Component {
         <div className="card" style={{ width: '18rem' }}>
           <img src={this.props.imageUrl} className="card-img-top" alt="..." />
           <div className="card-body">
-            <p className="card-text">{this.props.decription}</p>
+            <p className="card-text">
+              {this.props.decription}
+              {this.props.name}
+            </p>
           </div>
         </div>
       </div>

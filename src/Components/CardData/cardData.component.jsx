@@ -7,7 +7,7 @@ class CardData extends Component {
     return (
       <div>
         {this.props.user.map((item, i) => {
-          return <Card key={i}></Card>;
+          return <Card {...item} key={i}></Card>;
         })}
       </div>
     );
