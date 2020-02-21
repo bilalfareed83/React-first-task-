@@ -11,6 +11,11 @@ const App = () => {
       decription: 'Type what you want'
     },
     {
+      name: 'Tehseen',
+      imageUrl: 'https://dummyimage.com/skyscraper/f0f/f',
+      decription: 'Type what you want'
+    },
+    {
       name: 'Sajjad',
       imageUrl: 'https://dummyimage.com/skyscraper/f0f/f',
       decription: 'Type what you want'
